@@ -1,0 +1,14 @@
+{
+  "name": "registry",
+  "version": "0.0.0",
+  "description": "The component.fm couchdb setup.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/web-audio-components/registry"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nano": "~4.1.1",
+    "follow": "~0.9.0"
+  }
+}
