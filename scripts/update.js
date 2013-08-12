@@ -20,7 +20,7 @@ function push (id, rev, callback) {
     var latest = doc['dist-tags']['latest']
       , pkg = doc['versions'][latest];
 
-    if (doc._id === '_design/app' || pkg.hasOwnProperty('web-audio')) {
+    if (pkg.hasOwnProperty('web-audio')) {
       wac.bulk({
         docs: [doc],
         new_edits: false
